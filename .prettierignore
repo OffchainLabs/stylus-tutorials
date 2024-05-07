@@ -1,0 +1,17 @@
+# General
+dist/**
+node_modules/**
+packages/**/node_modules/**
+packages/**/dist/**
+
+# Cargo Stylus
+packages/**/target/**
+
+# Foundry
+packages/**/lib/**
+packages/**/cache/**
+packages/**/out/**
+
+# Other
+packages/**/artifacts/**
+packages/**/build/**

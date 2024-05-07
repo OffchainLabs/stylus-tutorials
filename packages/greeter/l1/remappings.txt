@@ -1,0 +1,4 @@
+@openzeppelin/contracts-upgradeable/=lib/nitro-contracts/node_modules/@openzeppelin/contracts-upgradeable/
+ds-test/=lib/nitro-contracts/lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+nitro-contracts/=lib/nitro-contracts/

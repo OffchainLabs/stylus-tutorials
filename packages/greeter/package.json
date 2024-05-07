@@ -1,0 +1,11 @@
+{
+  "name": "greeter",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "scripts": {
+    "build:solidity": "cd l1 && forge build && cd ..",
+    "build:rust": "cd l2 && ./scripts/build.sh && cd ..",
+    "run:script": "ts-node scripts/exec.ts",
+    "greeter": "yarn build:solidity && yarn build:rust && yarn run:script"
+  }
+}
